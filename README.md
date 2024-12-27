@@ -21,7 +21,7 @@ Topology: <br/>
 <img src="https://imgur.com/2eVn2GF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enabled port security on F0/1 and F0/2 and set the maximum device that can access the ports to one:  <br/>
+Enabled port security on F0/1 and F0/2 and set the maximum devices that can access the ports to one:  <br/>
 <img src="https://imgur.com/9k1HCTt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
