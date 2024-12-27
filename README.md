@@ -1,7 +1,7 @@
 <h1>Implementing Port Security</h1>
 
 <h2>Description</h2>
-In this project, I configured and verified port security on a switch. Port security restricts port’s ingress traffic by limiting the MAC addresses that are allowed to send traffic into the port.
+This project involves configuring and verifing port security on a switch. Port security restricts port’s ingress traffic by limiting the MAC addresses that are allowed to send traffic into the port.
 <br />
 
 
@@ -16,12 +16,16 @@ In this project, I configured and verified port security on a switch. Port secur
 
 <h2>Program walk-through:</h2>
 
-<p align="center">
-Topology: <br/>
+- <b>Topology: <b/> 
+<br/>
 <img src="https://imgur.com/2eVn2GF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enabled port security on F0/1 and F0/2 and set the maximum devices that can access the ports to one:  <br/>
+<br/>
+
+- <b>Enabled port security on F0/1 and F0/2 on the switch and set the maximum devices that can access the ports to one so only PC 1 and PC 2 in our topology can access these ports.
+- Secure the ports so that the MAC address of a device is dynamically learned and added to the running configuration.
+- Set the violation mode so that the F0/1 and F0/2 are not disabled when a violation occurs, but a notification of the security violation is generated, and packets from the unknown source are dropped.
+- Disabled all the remaining unused ports:
+<br/>
 <img src="https://imgur.com/9k1HCTt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
