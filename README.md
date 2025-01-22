@@ -22,7 +22,7 @@ This project involves configuring and verifing port security on a switch. Port s
 <br/>
 
 - <b>Enabled port security on F0/1 and F0/2 on the switch and set the maximum devices that can access the ports to one so only PC 1 and PC 2 in our topology can access these ports.
-- Secure the ports so that the MAC address of a device is dynamically learned and added to the running configuration.
+- Secured the ports so that the MAC address of a device is dynamically learned and added to the running configuration.
 - Set the violation mode so that the F0/1 and F0/2 are not disabled when a violation occurs, but a notification of the security violation is generated, and packets from the unknown source are dropped.
 - Disabled all the remaining unused ports:
 <br/>
