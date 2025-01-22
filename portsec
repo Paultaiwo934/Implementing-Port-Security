@@ -189,3 +189,48 @@ Configured MAC Addresses   : 0
 Sticky MAC Addresses       : 1
 Last Source Address:Vlan   : 0002.4A42.C51C:1
 Security Violation Count   : 5
+
+
+PC1
+Cisco Packet Tracer PC Command Line 1.0
+C:\>ping 10.10.10.11
+
+Pinging 10.10.10.11 with 32 bytes of data:
+
+Reply from 10.10.10.11: bytes=32 time=3ms TTL=128
+Reply from 10.10.10.11: bytes=32 time<1ms TTL=128
+Reply from 10.10.10.11: bytes=32 time<1ms TTL=128
+Reply from 10.10.10.11: bytes=32 time<1ms TTL=128
+
+Ping statistics for 10.10.10.11:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 3ms, Average = 0ms
+
+C:\>
+
+PC2
+Cisco Packet Tracer PC Command Line 1.0
+C:\>ipconfig
+
+FastEthernet0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: FE80::201:64FF:FE7C:697E
+   IPv6 Address....................: ::
+   IPv4 Address....................: 10.10.10.11
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: ::
+                                     0.0.0.0
+
+Bluetooth Connection:
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: ::
+   IPv6 Address....................: ::
+   IPv4 Address....................: 0.0.0.0
+   Subnet Mask.....................: 0.0.0.0
+   Default Gateway.................: ::
+                                     0.0.0.0
+
+C:\>
