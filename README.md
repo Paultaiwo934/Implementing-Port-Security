@@ -29,7 +29,7 @@ This project involves configuring and verifing port security on a switch. Port s
 <img src="https://imgur.com/9k1HCTt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Verify port security is enabled and the MAC addresses of PC1 and PC2 were added to the running configuration: <br/>
+Verified that port security is enabled and the MAC addresses of PC1 and PC2 were added to the running configuration: <br/>
 <img src="https://imgur.com/RREJ8BA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
